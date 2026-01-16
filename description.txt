@@ -1,0 +1,17 @@
+Web Development – Tasks
+
+1. Event Website
+Design and develop the event website before the event.
+Include event details, schedule, venue, and contact information.
+Ensure the site is stable and accessible.
+
+
+2. Website-Based Registrations
+If feasible, enable participant registrations through the website.
+Validate form inputs and store data securely.
+
+
+3. Database Access
+Provide database access to the database team.
+Ensure smooth data flow between the website and the database.
+Test registration and data access before going live.

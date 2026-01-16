@@ -1,0 +1,12 @@
+1. All restricted paths start with /admin/ make sure to implement a simple admin login from frontend and all admin pages sending admin api requests 
+should be listed under /admin/ in react router path. 
+/admin/* pages should only be accessible if logged in
+
+2. All images are stored in cloudinary , display them through the link received from api response
+
+3. fetch api requests for committee/all in loaders section of react router to avoid latency 
+
+4. All the input fields are in string or file upload, introduce neccessary formatting before sending the api request.
+try to use <textarea> wherever possible (especially for description and contact information)
+
+5. Send all fetch request using form data and not as JSON since backend uses form data
